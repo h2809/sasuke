@@ -109,7 +109,7 @@
 
 /* Image */
 @imageMargin: -0.3em 0;
-@imageWidth: 2.5em;
+@imageWidth: 6.5em;
 @verticalImageWidth: auto;
 
 /* Label */
