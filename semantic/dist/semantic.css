@@ -45816,7 +45816,7 @@ span.ui.massive.text {
      Images
 ---------------*/
 
-.ui.menu .item > img:not(.ui) {
+.ui.menu .item > a > img:not(.ui) {
   display: inline-block;
   vertical-align: middle;
   margin: -0.3em 0;
