@@ -6,83 +6,10 @@
   <title>株式会社サスケ 産業廃棄物コーディネイト</title>
   <link rel=”icon” href=“assets/images/favicon.ico”>
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
-  <script src="dist/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="semantic/dist/semantic.min.js"></script>
-  <script>
-$(document).ready(function() {
-  // fix main menu to page on passing
-  $('.main.menu').visibility({
-    type: 'fixed'
-  });
-  // $('.overlay').visibility({
-  //   type: 'fixed',
-  //   offset: 80
-  // });
-     
-  // lazy load images
-  $('.image').visibility({
-    type: 'image',
-    transition: 'vertical flip in',
-    duration: 500
-  });
-
-  // show dropdown on hover
-  $('.main.menu  .ui.dropdown').dropdown({
-    on: 'hover'
-  });
-});
-  </script>
-  <style type="text/css">
-body {
-  background-color: #FFFFFF;
-}
-.main.container {
-  margin-top: 2em;
-}
-.main.menu {
-  margin-top: 4em;
-  border-radius: 0;
-  border: none;
-  box-shadow: none;
-  transition:
-  box-shadow 0.5s ease,
-  padding 0.5s ease;
-}
-/*
-.main.menu .item img.logo {
-  margin-right: 1.5em;
-}
-*/
-.overlay {
-  float: left;
-  margin: 0em 3em 1em 0em;
-}
-.overlay .menu {
-  position: relative;
-  left: 0;
-  transition: left 0.5s ease;
-}
-
-.main.menu.fixed {
-  background-color: #FFFFFF;
-  border: 1px solid #DDD;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-}
-.overlay.fixed .menu {
-  left: 800px;
-}
-      
-.text.container .left.floated.image {
-  margin: 2em 2em 2em -4em;
-}
-.text.container .right.floated.image {
-  margin: 2em -4em 2em 2em;
-}
-.ui.footer.segment {
-  margin: 5em 0em 0em;
-  padding: 5em 0em;
-}
-  </style>
+  <script src="dist/bundle.js"></script>
 </head>
 <body>
   <div class="ui main text container">
@@ -247,6 +174,5 @@ body {
       </div>
     </div>
   </div>
-  <script src="dist/bundle.js"></script><!-- bundle -->
 </body>
 </html>
